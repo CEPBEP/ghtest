@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>::-webkit-scrollbar{width:1px;}</style>
 </head>
 <body>
     <div id="app">

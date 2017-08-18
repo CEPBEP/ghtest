@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <style>
+        ::-webkit-scrollbar{width:1px;}
             html, body {
                 background-color: #fff;
                 color: #636b6f;
