@@ -1,2 +1,3 @@
 # github
-to do : heroku config
+to do : procfile config<br>
+clearDB config
