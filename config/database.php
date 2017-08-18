@@ -52,6 +52,7 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+            'options'   => [PDO::ATTR_EMULATE_PREPARES => true,]  // FIX FOR - Wrong COM_STMT_PREPARE response size. 
         ],
 
         'pgsql' => [
