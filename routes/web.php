@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('admin-panel', 'DashPosts');
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

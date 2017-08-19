@@ -46,6 +46,7 @@ html, body {
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
+    background: rgba(0, 188, 212, 0.14);
 }
 ::-webkit-scrollbar{width:1px;}
 .m-b-md {

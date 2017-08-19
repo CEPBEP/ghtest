@@ -141,6 +141,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Collective\Html\HtmlServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class,
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
@@ -173,6 +174,8 @@ return [
     |
     */
     'aliases' => [
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,        
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
