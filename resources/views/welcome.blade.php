@@ -15,7 +15,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                {{ config('app.name', 'Laravel') }}
+                $_[d{{ config('app.name', 'Laravel') }}]
                 </div>
 
                 <div class="links">
